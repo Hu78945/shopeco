@@ -29,16 +29,16 @@ interface SizeOption {
 }
 
 interface ProductDetailsProps {
-    title: string
-    rating: number
-    reviewCount: number
-    currentPrice: number
+    title?: string
+    rating?: number
+    reviewCount?: number
+    currentPrice?: number
     originalPrice?: number
     discount?: number
-    description: string
-    images: ProductImage[]
-    colors: ColorOption[]
-    sizes: SizeOption[]
+    description?: string
+    images?: ProductImage[]
+    colors?: ColorOption[]
+    sizes?: SizeOption[]
     defaultColor?: string
     defaultSize?: string
 }
